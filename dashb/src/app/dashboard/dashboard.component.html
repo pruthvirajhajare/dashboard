@@ -1,0 +1,102 @@
+<header class="mt-3">
+  <div class="container row ">
+
+    <div class="col-md-2">
+      <span class="fw-bold">Dashboard</span>
+
+    </div>
+
+    <div class="col-md-10">
+      <div class="end"> {{date| date: ' dd MMMM y,EEEE' }}
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+
+<div class="info mt-2 ">
+  <p class="mt-3 para">Welcome back {{name}}!
+    <br>
+    You've learned 80% of your goal this week!
+    <br>
+    keep it up and improve your result!
+  </p>
+</div>
+
+
+<div class=" row mt-3">
+  <div class="justify-content-center rounded shadow col-md-5 me-5">
+    <ul>
+      <li><strong> Latest Result</strong></li>
+      <li class="mt-2"> <strong> Unit 5</strong>-Technology &nbsp;<progress value="25" max="100"> 25% </progress>
+        &nbsp;<span class="text-danger">{{technology}} %</span></li>
+      <hr>
+      <li> <strong> Unit 12</strong>-Ecology &nbsp;&nbsp;&nbsp;&nbsp; <progress value="44" max="100"> 44%
+        </progress>&nbsp;<span class="text-primary">{{ecology}} %</span></li>
+      <hr>
+      <li> <strong> Unit 9</strong>-Real estate &nbsp;&nbsp;<progress value="40" max="100"> 40% </progress>&nbsp;<span
+          class="text-primary">{{realEstate}} %</span></li>
+      <hr>
+      <li> <strong> Unit 8</strong>-Education &nbsp;&nbsp;&nbsp;<progress value="15" max="100"> 15%
+        </progress>&nbsp;<span class="text-danger">{{education}} %</span></li>
+      <hr>
+      <li> <strong> Unit 16</strong>-Job market <progress value="76" max="100"> 76% </progress>&nbsp;<span
+          class="text-primary">{{jobMarket}} %</span></li>
+    </ul>
+  </div>
+  <div class=" justify-content-center rounded shadow col-md-6">
+    <ul>
+      <li><strong> Time spent on Learning</strong></li>
+      <li>
+        <span>sunday</span>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+      
+      </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+<footer>
+  <b>Your courses</b>
+  <span class="more">More <i class="fa-solid fa-arrow-right-long"></i></span>
+  <div class="row mt-2">
+      <div class="col-md-4 ">
+          <div class="bg-1">
+              <span class="b2">B2</span>
+              <span class="be"><small>Business English</small></span>
+              <strong class="grammar">Grammar</strong>
+              <span><i class="fa-solid fa-arrow-right-long icon4"></i></span>
+          </div>
+      </div>
+      <div class="col-md-4 ">
+          <div class="bg-1">
+              <span class="b2">B2</span>
+              <span class="be"><small>Business English</small></span>
+              <strong class="grammar">Grammar</strong>
+              <span><i class="fa-solid fa-arrow-right-long icon4"></i></span>
+          </div>
+      </div>
+      <div class="col-md-4 ">
+          <div class="bg-1">
+              <span class="b2">B2</span>
+              <span class="be"><small>Business English</small></span>
+              <strong class="grammar">Grammar</strong>
+              <span><i class="fa-solid fa-arrow-right-long icon4"></i></span>
+          </div>
+      </div>
+  </div>
+</footer>

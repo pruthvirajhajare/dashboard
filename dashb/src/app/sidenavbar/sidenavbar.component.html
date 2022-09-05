@@ -1,0 +1,46 @@
+<div class="row justify-content-center rounded ">
+   
+        <div class="container-fluid">
+            <button class="navbar-toggler mt-4 fw-bold logo nav-link active" type="button" data-bs-toggle="collapse"
+           (click)="hidesidebar()" > <span class="navbar-toggler-icon me-4"> <img src="assets/logoimage.png"
+                        alt="rferwdfed"> </span>
+                <span class="navbar-toggler-icon ">Logo </span>
+            </button>
+            <!-- <a (click)="hidesidebar()" class="mt-4 fw-bold logo nav-link active "> <img src="assets/logoimage.png"
+                alt="rferwdfed"> &nbsp; &nbsp; Logo</a> -->
+
+            <nav class="navbar navbar-expand-sm " *ngIf="toggle">
+
+                <div class="container-fluid verticalBar">
+
+                    <div class="collapse navbar-collapse" id="mynavbar">
+
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link mt-5 " routerLink="dashboard"><i class="fa-solid fa-table-columns"></i> Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" routerLink="class"> <i class="fa-regular fa-folder"></i>Classes</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" routerLink="resources">  <i class="fa-regular fa-folder-open"></i>Resources</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" routerLink="learningPlan">   <i class="fa-regular fa-calendar"></i>  learning Plan</a>
+                            </li>
+                            <li class="nav-item">
+                                   <a class="nav-link" routerLink="chat">  <i class="fa-solid fa-message"></i>Chat</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="nav-link" routerLink="setting">  <i class="fa-solid fa-pen"></i>Setting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+    </div>
+</div>
+<div>
+    
+</div>

@@ -1,0 +1,30 @@
+.logout{
+    margin-left: 5%;
+}
+.arrow2{
+    margin-left: 60%;
+}
+.png{
+    border-radius: 45%;
+}
+figcaption{
+    font-weight: bolder;
+}
+.B2{
+    background-color: rgb(237, 240, 244);
+    border-radius: 15%;
+    padding: 5%;
+}
+progress{
+  width: 90%;
+}
+.icon1{
+    background-color: rgb(253, 185, 185);
+    padding: 5%;
+    border-radius: 15%;
+}
+.icon2{
+    background-color: rgb(189, 222, 255);
+    padding: 5%;
+    border-radius: 15%;
+}
